@@ -91,3 +91,34 @@ print("Hello, my name is YourName and my roll number is YourRollNumber")
 
 python hello.py
 python3 hello.py
+
+
+
+
+sudo apt update
+sudo apt install gcc
+gcc --version
+
+//Header is not found
+
+sudo apt install build-essential
+sudo apt install libcurl4-openssl-dev
+sudo apt install libgtk-3-dev
+gcc -I/path/to/headers your_program.c -o your_program
+
+
+
+sudo apt install g++
+sudo apt install build-essential
+
+sudo apt install python3
+python3 --version
+sudo apt install python3-pip
+pip3 --version
+
+
+sudo apt install default-jre
+sudo apt install default-jdk
+java -version
+javac --version
+sudo apt install openjdk-17-jdk
