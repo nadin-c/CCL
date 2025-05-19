@@ -1,0 +1,93 @@
+// 1. C program to print your name and roll number:
+
+#include <stdio.h>
+
+int main() {
+    printf("Name: YourName\n");
+    printf("Roll Number: YourRollNumber\n");
+    return 0;
+}
+
+
+// 2. C program that adds two numbers and displays the result:
+
+#include <stdio.h>
+
+int main() {
+    int a, b, sum;
+    a = 5;
+    b = 7;
+    sum = a + b;
+    printf("Sum = %d\n", sum);
+    return 0;
+}
+
+
+// 3. C program to check if a number is even or odd:
+
+#include <stdio.h>
+
+int main() {
+    int num = 8;
+    if (num % 2 == 0)
+        printf("%d is even\n", num);
+    else
+        printf("%d is odd\n", num);
+    return 0;
+}
+
+
+// 4. C program to find the factorial of a number using a loop:
+
+#include <stdio.h>
+
+int main() {
+    int num = 5, i;
+    unsigned long long factorial = 1;
+
+    for (i = 1; i <= num; i++) {
+        factorial *= i;
+    }
+
+    printf("Factorial of %d = %llu\n", num, factorial);
+    return 0;
+}
+
+
+// 5. C program to reverse a given string:
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100] = "hello";
+    int len = strlen(str);
+    printf("Reversed string: ");
+    for (int i = len - 1; i >= 0; i--) {
+        printf("%c", str[i]);
+    }
+    printf("\n");
+    return 0;
+}
+
+
+// 6. Any two programs to compile and run (you can pick any two from above):
+
+gcc filename.c -o outputname
+./outputname
+
+
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, my name is YourName and my roll number is YourRollNumber");
+    }
+}
+
+javac Hello.java
+java Hello
+
+
+print("Hello, my name is YourName and my roll number is YourRollNumber")
+
+python hello.py
+python3 hello.py

@@ -1,6 +1,2 @@
-runtime: python39
-
-handlers:
-- url: /.*
-  script: main.app  # Replace 'main.app' with your entry point (filename.app)
-
+runtime: python39 
+entrypoint: gunicorn -b :$PORT main:app 
