@@ -1,0 +1,6 @@
+runtime: python39
+
+handlers:
+- url: /.*
+  script: main.app  # Replace 'main.app' with your entry point (filename.app)
+
