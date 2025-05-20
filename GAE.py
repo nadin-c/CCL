@@ -59,5 +59,11 @@ def show_time():
 
 # JAVA
 
-mvn archetype:generate -DgroupId=com.example -DartifactId=helloworld \
-  -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+# mvn archetype:generate -DgroupId=com.example -DartifactId=helloworld \
+#   -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+
+# https://nadin-460312.el.r.appspot.com/
+
+
+# gcloud projects add-iam-policy-binding nadin-460312 --member="serviceAccount:nadin-460312@appspot.gserviceaccount.com" --role="roles/storage.admin"
